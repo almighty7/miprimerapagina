@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/345ed17f77.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script> 
+</head>
+<body>
+
+    <div class = "container"> 
+        <header> 
+            <a href="index.html"><i class="fa-regular fa-star"></i> </a>  
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#acerca">Acerca de mi</a></li>
+                    <li><a href="#trabajos">Trabajos</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>  
+        
+        <main id="seccion-principal">
+            <section class="seccion-1">
+                <div class="acerca-de" >
+                    <h2>Acerca de mi</h2>
+                    <div class="parrafo1" >
+                        <p>Bienvenido a mi pagina Aquí, aprenderas mas sobre mí. Me llamo Kendo, nací en AQP y vivo en Lima.
+                            Me gusta mucho el futbol y salir a pasear los dias de sol.
+                        </p>
+                    </div>
+                </div>
+                <div class="acerca-imagen">
+                    <img src="img/imagen1.jpg" alt="imagenportada" />
+                </div>
+            </section>
+            <section class="seccion-2">
+                <img src="img/imagen2.jpeg" alt="" />
+            </section>
+        </main>
+
+
+       
+
+        <footer class="form-header" >
+            <h1>Contacto</h1>
+            <p><em>¡Esperamos tu consulta!</em></p>
+            <form action="" method="get" class="formulario" id="form">
+                <div class="form-row">
+                    <label for="nombre">Nombre</label>
+                    <input id="nombre" name="nombre" type="text" />
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="email"
+                      placeholder="pepe@gmail.com"
+                      required
+                    />
+                </div>
+                <div class="form-row">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje"></textarea>
+                </div>
+                <div class="form-row">
+                    <button type = "submit" id = "submit">Enviar</button>
+                </div>
+                <p class="alertas" id = "alertas"></p>
+            </form>
+    
+
+
+
+            <h3>Redes Sociales</h3>
+            <ul>
+                <li><a href="index.html">Contacto </a></li>
+                <li><a href="index.html">Instagram </a></li>
+                <li><a href="index.html">TikTok </a></li>
+                <li><a href="index.html">Whatsapp </a></li>
+            </ul>
+        </footer>
+    </div>  
+</body>
+</html>
+
+!
